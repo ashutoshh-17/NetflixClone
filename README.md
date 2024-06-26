@@ -27,7 +27,7 @@ To get a local copy up and running, follow these steps:
     ```
 2. Navigate to the project directory
     ```sh
-    cd Netflix-UI-UX-clone-using-react-and-Firebase
+    cd netflix-clone
     ```
 3. Important steps to Run/Install dependencies
     ```sh
