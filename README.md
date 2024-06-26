@@ -47,11 +47,6 @@ To get a local copy up and running, follow these steps:
 
     **Note:** The TMDB API key may not be available in India. You can work around this by using a VPN to access the TMDB API.
 
-5. Start the development server
-    ```sh
-    npm start
-    ```
-
 ## Usage
 Once the development server is running, you can view the application in your browser at `http://localhost:5173`.
 
@@ -62,6 +57,7 @@ This project is deployed using Vercel. You can visit the deployed site at:
 
 ## Cross Platform Compatability
 The application is designed to be fully responsive and looks great on any device. 
+
 ![readme-img](https://github.com/ashutoshh-17/NetflixClone/blob/main/screenshots/readme-img.png)
 
 
