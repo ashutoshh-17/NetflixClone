@@ -4,10 +4,20 @@
     margin: 0 auto;
 }
 
-.footer-icons{
+.footer-icons {
     display: flex;
     gap: 20px;
     margin: 40px 0;
+}
+
+.footer-icons p a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-edit ul li a {
+    text-decoration: none;
+    color: white;
 }
 
 .footer-icons img{

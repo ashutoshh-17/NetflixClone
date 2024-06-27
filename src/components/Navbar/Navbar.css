@@ -80,11 +80,16 @@
     background: #0C0404;
 }
 
+.text-decor p a{
+    text-decoration: none;
+    color: white;
+}
+
 @media (max-width: 800px) {
     .navbar{
         padding: 20px 4%;
     }
-    .navbar-left{
+    .navbar-left ul{
         display: none;
     }
     .navbar img{

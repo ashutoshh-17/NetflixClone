@@ -34,9 +34,11 @@ const Navbar = () => {
           <li>Browse by Languages</li>
         </ul>
       </div>
-      <div className="navbar-right"></div>
+      <div className="navbar-right">
          <img src={search_icon} alt="" className='icons'/>
-         <p>Children</p>
+         <div className="text-decor">
+         <p><a href='https://www.netflix.com/in/browse/genre/783'>Children</a></p>
+         </div>
          <img src={bell_icon} alt="" className='icons'/>
          <div className="navbar-profile">
           <img src={profile_img} alt="" className='profile'/>
@@ -44,6 +46,7 @@ const Navbar = () => {
           <div className='dropdown'>
             <p onClick={()=>{logout()}}>Sign Out of Netflix</p>
           </div>
+         </div>
          </div>
     </div>
   )

@@ -9,25 +9,25 @@ const Footer = () => {
   return (
     <div className='footer'>
       <div className="footer-icons">
-        <img src={facebook_icon} alt="" />
-        <img src={twitter_icon} alt="" />
-        <img src={instagram_icon} alt="" />
-        <img src={youtube_icon} alt="" />
+      <p> <a href='https://help.netflix.com/en/contactus'>Questions? Contact us.</a></p>
       </div>
+      <div className="footer-edit">
       <ul>
-        <li>Audio Description</li>
-        <li>Help Centre</li>
-        <li>Gift Cards</li>
-        <li>Media Centre</li>
-        <li>Investor Relations</li>
-        <li>Jobs</li>
-        <li>Terms of Use</li>
-        <li>Privacy</li>
-        <li>Legal Notices</li>
-        <li>Cookie Preferences</li>
-        <li>Corporate Information</li>
-        <li>Contact Us</li>
+        <li> <a href='https://help.netflix.com/en/node/25079'>Audio Description</a></li>
+        <li> <a href='https://help.netflix.com/en'>Help Centre</a></li>
+        <li> <a href='https://www.netflix.com/gift-cards'>Gift Cards</a></li>
+        <li> <a href='https://help.netflix.com/en'>Media Centre</a></li>
+        <li> <a href='https://ir.netflix.net/ir-overview/profile/default.aspx'>Investor Relations</a></li>
+        <li> <a href='https://jobs.netflix.com/'>Jobs</a></li>
+        <li> <a href='https://help.netflix.com/legal/termsofuse'>Terms of Use</a></li>
+        <li> <a href='https://help.netflix.com/legal/privacy'>Privacy</a></li>
+        <li> <a href='https://help.netflix.com/legal/notices'>Legal Notices</a></li>
+        <li> <a href='https://help.netflix.com/en/node/124516'>Cookie Preferences</a></li>
+        <li> <a href='https://help.netflix.com/en/node/134094'>Corporate Information</a></li>
+        <li> <a href='https://help.netflix.com/en/contactus'>Contact Us</a></li>
+        
       </ul>
+      </div>
       <p className='copyright-text'>© 1997-2024 Netflix, Inc.</p>
     </div>
   )
